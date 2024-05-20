@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="icon" href="public/Icon-hemy.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./portiflio.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="portiflio">
+      <header class="header-mobile2">
+        <div class="group-container">
+          <img class="group-icon2" alt="" src="./public/group.svg" />
+
+          <div class="button-container">
+            <div class="button10" id="buttonContainer">
+              <div class="text10">Sobre Mim</div>
+            </div>
+            <div class="button10" id="buttonContainer1">
+              <div class="text10">Formação</div>
+            </div>
+            <div class="button12">
+              <div class="text12">Portfólio</div>
+            </div>
+            <div class="button10" id="buttonContainer3">
+              <div class="text10">Contato</div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="portiflio-inner">
+        <div class="frame-parent6">
+          <div class="portflio-wrapper">
+            <b class="portflio">Portfólio</b>
+          </div>
+          <div class="frame-parent7">
+            <div class="atividade-extensionista-i-e-ii-parent">
+              <b class="atividade-extensionista-i-container">
+                <p class="atividade-extensionista-i">
+                  Atividade Extensionista I e II - UNINTER
+                </p>
+              </b>
+              <div class="focado-em-trs">
+                Focado em três ODS’s da ONU foi criado uma plataforma de
+                incentivo a produção limpa para produtores agrícolas.
+              </div>
+            </div>
+            <button class="button14" id="button">
+              <div class="text14">Acesse aqui</div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="frame-parent8">
+        <div class="frame-wrapper1">
+          <div class="outros-projetos-em-wrapper">
+            <b class="outros-projetos-em">Outros Projetos em:</b>
+          </div>
+        </div>
+        <div class="github-logo-1-streamline-ulti-parent">
+          <img
+            class="github-logo-1-streamline-ulti-icon"
+            alt=""
+            src="./public/githublogo1streamlineultimatesvg.svg"
+          />
+
+          <div class="hemilyboaventura">@hemilyboaventura</div>
+          <button class="button15" id="button1">
+            <div class="text14">Acesse aqui</div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var buttonContainer1 = document.getElementById("buttonContainer1");
+      if (buttonContainer1) {
+        buttonContainer1.addEventListener("click", function (e) {
+          window.location.href = "./formacao.html";
+        });
+      }
+      
+      var buttonContainer3 = document.getElementById("buttonContainer3");
+      if (buttonContainer3) {
+        buttonContainer3.addEventListener("click", function (e) {
+          window.location.href = "./contato.html";
+        });
+      }
+      
+      var button = document.getElementById("button");
+      if (button) {
+        button.addEventListener("click", function () {
+          window.open("https://youtu.be/IICViUNAy_M");
+        });
+      }
+      
+      var button1 = document.getElementById("button1");
+      if (button1) {
+        button1.addEventListener("click", function () {
+          window.open("https://github.com/HemilyBoaventura");
+        });
+      }
+      </script>
+  </body>
+</html>

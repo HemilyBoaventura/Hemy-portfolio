@@ -1,0 +1,156 @@
+.group-icon1 {
+  width: 70.7px;
+  position: relative;
+  height: 32px;
+}
+.text6 {
+  position: relative;
+  font-weight: 600;
+}
+.button6 {
+  border-radius: var(--button-base-button-layoult-radius);
+  height: var(--button-base-button-layoult-h-size);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--button-base-button-layoult-w-pedding);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.text7 {
+  position: relative;
+  font-weight: 900;
+}
+.button7 {
+  border-radius: var(--button-base-button-layoult-radius);
+  height: var(--button-base-button-layoult-h-size);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--button-base-button-layoult-w-pedding);
+  box-sizing: border-box;
+}
+.button-group {
+  justify-content: center;
+  padding: 0 var(--padding-5xl);
+  gap: var(--gap-xs);
+}
+.button-group,
+.group-group,
+.header-mobile1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.group-group {
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 var(--padding-5xl);
+}
+.header-mobile1 {
+  align-self: stretch;
+  backdrop-filter: blur(16px);
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  text-align: center;
+  font-size: var(--button-medium-semibold-size);
+  color: var(--others-white);
+  font-family: var(--font-nunito);
+}
+.formao1 {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 70px;
+  flex-shrink: 0;
+}
+.certificate-2-streamline-broo-icon {
+  width: 342px;
+  position: relative;
+  height: 342px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.formao-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-38xl);
+}
+.tcnologo-em-anlise,
+.uninter-centro-universitrio {
+  width: 711px;
+  position: relative;
+  display: inline-block;
+}
+.uninter-centro-universitrio {
+  font-size: var(--font-size-5xl);
+}
+.frame-parent4,
+.tcnologo-em-anlise-e-desenvo-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tcnologo-em-anlise-e-desenvo-parent {
+  font-size: var(--font-size-13xl);
+}
+.frame-parent4 {
+  width: 713px;
+  gap: var(--gap-8xl);
+}
+.frame-parent2,
+.frame-parent3 {
+  align-items: center;
+  justify-content: center;
+}
+.frame-parent3 {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+}
+.frame-parent2 {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+}
+.formao,
+.formao-inner,
+.frame-parent2 {
+  display: flex;
+  flex-direction: column;
+}
+.formao-inner {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-21xl) var(--padding-118xl);
+}
+.formao {
+  width: 100%;
+  position: relative;
+  background-color: var(--others-white);
+  height: 1746px;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--desktop-headings-h2-bold-size);
+  color: var(--color-gray-100);
+  font-family: var(--button-large-semibold);
+}
+@media screen and (max-width: 420px) {
+  .formao1,
+  .tcnologo-em-anlise,
+  .uninter-centro-universitrio {
+    font-size: var(--font-size-13xl);
+  }
+}

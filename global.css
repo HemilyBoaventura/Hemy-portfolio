@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --button-large-semibold: "DM Sans";
+  --font-nunito: Nunito;
+
+  /* font sizes */
+  --desktop-paragraph-large-medium-size: 18px;
+  --font-size-13xl: 32px;
+  --button-large-semibold-size: 20px;
+  --desktop-headings-h2-bold-size: 48px;
+  --button-medium-semibold-size: 16px;
+  --font-size-5xl: 24px;
+  --desktop-paragraph-small-medium-size: 14px;
+
+  /* Colors */
+  --others-white: #fff;
+  --color-gray-100: #271515;
+  --color-gray-200: #0b0d0f;
+  --button-state-colors-outline-default-stroke: #373a48;
+  --color-lightslategray: #848f9a;
+  --color-gainsboro: #dde0e4;
+  --color-whitesmoke: #f4f5f6;
+  --color-tokens-label: #4f5a64;
+
+  /* Spacing */
+  --button-base-button-layoult-spacing: 24px;
+  --button-base-button-layoult-w-pedding: 24px;
+  --button-base-button-layoult-h-size: 56px;
+  --button-base-button-layoult-radius: 16px;
+  --layoult-tokens-label-spacing: 4px;
+  --layoult-tokens-description-spacing: 4px;
+
+  /* Gaps */
+  --gap-xs: 12px;
+  --gap-23xl: 42px;
+  --gap-5xl: 24px;
+  --gap-38xl: 57px;
+  --gap-8xl: 27px;
+  --gap-9xs: 4px;
+
+  /* Paddings */
+  --padding-21xl: 40px;
+  --padding-118xl: 137px;
+  --padding-61xl: 80px;
+  --padding-5xl: 24px;
+  --padding-base: 16px;
+
+  /* Border radiuses */
+  --br-base: 16px;
+  --br-xs: 12px;
+}

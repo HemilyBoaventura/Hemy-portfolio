@@ -1,0 +1,270 @@
+.group-icon2 {
+  width: 70.7px;
+  position: relative;
+  height: 32px;
+}
+.text10 {
+  position: relative;
+  font-weight: 600;
+}
+.button10 {
+  border-radius: var(--button-base-button-layoult-radius);
+  height: var(--button-base-button-layoult-h-size);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--button-base-button-layoult-w-pedding);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.text12 {
+  position: relative;
+  font-weight: 900;
+}
+.button12 {
+  border-radius: var(--button-base-button-layoult-radius);
+  height: var(--button-base-button-layoult-h-size);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--button-base-button-layoult-w-pedding);
+  box-sizing: border-box;
+}
+.button-container {
+  justify-content: center;
+  padding: 0 var(--padding-5xl);
+  gap: var(--gap-xs);
+}
+.button-container,
+.group-container,
+.header-mobile2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.group-container {
+  flex: 1;
+  justify-content: space-between;
+  padding: 0 var(--padding-5xl);
+}
+.header-mobile2 {
+  align-self: stretch;
+  backdrop-filter: blur(16px);
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  text-align: center;
+  font-size: var(--button-medium-semibold-size);
+  color: var(--others-white);
+  font-family: var(--font-nunito);
+}
+.portflio {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 70px;
+  flex-shrink: 0;
+}
+.portflio-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.atividade-extensionista-i {
+  margin: 0;
+}
+.atividade-extensionista-i-container {
+  width: 433px;
+  position: relative;
+  display: inline-block;
+  height: 99px;
+  flex-shrink: 0;
+}
+.focado-em-trs {
+  width: 472px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+}
+.atividade-extensionista-i-e-ii-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.text14 {
+  position: relative;
+  font-size: var(--button-medium-semibold-size);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--button-large-semibold);
+  color: var(--others-white);
+  text-align: center;
+}
+.button14 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--button-base-button-layoult-w-pedding);
+  background-color: var(--color-gray-100);
+  width: 135px;
+  border-radius: var(--button-base-button-layoult-radius);
+  height: var(--button-base-button-layoult-h-size);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.button14:hover {
+  background-color: var(--color-gainsboro);
+}
+.button14:active {
+  background-color: var(--color-whitesmoke);
+}
+.frame-parent7 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xs);
+  background-color: var(--others-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-13xl);
+}
+.frame-parent6,
+.portiflio-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.frame-parent6 {
+  gap: var(--gap-5xl);
+}
+.portiflio-inner {
+  padding: var(--padding-21xl) var(--padding-118xl);
+}
+.outros-projetos-em {
+  width: 711px;
+  position: relative;
+  display: inline-block;
+}
+.frame-wrapper1,
+.outros-projetos-em-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper1 {
+  width: 713px;
+}
+.github-logo-1-streamline-ulti-icon {
+  width: 188px;
+  position: relative;
+  height: 188px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.hemilyboaventura {
+  align-self: stretch;
+  position: relative;
+}
+.button15,
+.github-logo-1-streamline-ulti-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button15 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--button-base-button-layoult-w-pedding);
+  background-color: var(--color-gray-100);
+  align-self: stretch;
+  border-radius: var(--button-base-button-layoult-radius);
+  height: var(--button-base-button-layoult-h-size);
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.button15:hover {
+  background-color: var(--color-gainsboro);
+}
+.button15:active {
+  background-color: var(--color-whitesmoke);
+}
+.github-logo-1-streamline-ulti-parent {
+  width: 355px;
+  flex-direction: column;
+  gap: 82px;
+  font-size: var(--font-size-5xl);
+}
+.frame-parent8,
+.portiflio {
+  display: flex;
+  flex-direction: column;
+}
+.frame-parent8 {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-61xl) 0;
+  gap: var(--gap-23xl);
+  text-align: center;
+  font-size: var(--font-size-13xl);
+}
+.portiflio {
+  width: 100%;
+  position: relative;
+  background-color: var(--others-white);
+  height: 1400px;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--desktop-headings-h2-bold-size);
+  color: var(--color-gray-100);
+  font-family: var(--button-large-semibold);
+}
+@media screen and (max-width: 420px) {
+  .atividade-extensionista-i-container,
+  .focado-em-trs,
+  .portflio {
+    font-size: var(--font-size-13xl);
+  }
+  .button14 {
+    background-color: var(--button-state-colors-outline-default-stroke);
+    align-self: stretch;
+    width: auto;
+  }
+  .button14:hover {
+    background-color: var(--color-gray-200);
+  }
+  .button14:active {
+    background-color: var(--color-lightslategray);
+  }
+  .hemilyboaventura,
+  .outros-projetos-em {
+    font-size: var(--font-size-13xl);
+  }
+  .button15 {
+    background-color: var(--button-state-colors-outline-default-stroke);
+    align-self: stretch;
+    width: auto;
+  }
+  .button15:hover {
+    background-color: var(--color-gray-200);
+  }
+  .button15:active {
+    background-color: var(--color-lightslategray);
+  }
+}
